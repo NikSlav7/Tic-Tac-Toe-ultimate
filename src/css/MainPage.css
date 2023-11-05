@@ -9,6 +9,7 @@
     justify-content: center;
 }
 .main-page-winner-container{
+    max-height: 0vh;
     width: 70vh;
     height: 15vh;
     margin-bottom: 5vh;
