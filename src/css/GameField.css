@@ -22,3 +22,14 @@
 .invisible{
     visibility: hidden;
 }
+
+@media only screen and (max-width: 480px){
+
+
+    .game-field{
+        width: 90% !important;
+        height: auto;
+        aspect-ratio: 1/1;
+        row-gap: 0.45vw;
+    }
+}

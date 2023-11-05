@@ -1,6 +1,7 @@
 import '../css/MainPage.css'
 import GameField from './GameField';
 import { useRef, useState } from 'react';
+import Header from './Header';
 function MainPage(){
 
     const [gameWinner, setGameWinner] = useState(null);
@@ -16,6 +17,7 @@ function MainPage(){
 
     return (
         <div className="main-page-container">
+            <Header />
             <div ref={winnerRef} id="main-page-winner-container" className='main-page-winner-container'>
                 <div className='main-page-winner-text-container'>
                     <p className='main-page-winner-text'>Game Over!</p>
